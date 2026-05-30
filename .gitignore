@@ -1,0 +1,14 @@
+# secrets — never commit
+.env
+*.env
+vault*
+*secret*
+*token*
+*credential*
+*.pem
+*.key
+
+# noise
+__pycache__/
+*.pyc
+.DS_Store
