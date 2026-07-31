@@ -17,12 +17,12 @@ at 100%.
 
 Built for small-RAM machines and long sessions, but useful anywhere.
 
-Part of the [BRAINFRAME skills](https://github.com/The9thRealm/brainframe-skills) collection.
+Part of the [BRAINFRAME skills](https://github.com/CjPetersonIX/brainframe-skills) collection.
 
 ## Install (one line)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-context-compress/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-context-compress/main/install.sh | bash
 ```
 
 Installs to `~/.claude/skills/context-compress/` by default. Override with `SKILLS_DIR=...`.
@@ -33,7 +33,7 @@ Context is a budget. When it overflows the host compacts it for you — bluntly,
 This skill compresses **proactively at ~70–80%**: write a compact state note (goal,
 decisions, next step, key paths, gotchas), release the bulky stale items, and from there
 prefer `grep`/slice reads over whole-file reads. Pairs naturally with the
-[`handoff`](https://github.com/The9thRealm/brainframe-handoff) skill — the state note can
+[`handoff`](https://github.com/CjPetersonIX/brainframe-handoff) skill — the state note can
 double as a resume checkpoint.
 
 See [`SKILL.md`](SKILL.md) for the full discipline.
