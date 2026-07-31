@@ -2,7 +2,7 @@
 #
 # brainframe-context-compress — installer
 #
-#   curl -fsSL https://raw.githubusercontent.com/The9thRealm/brainframe-context-compress/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/CjPetersonIX/brainframe-context-compress/main/install.sh | bash
 #
 # Installs the Context-compress skill into your agent's skills directory. Non-interactive,
 # idempotent. Defaults to Claude Code (~/.claude/skills); override with SKILLS_DIR.
@@ -10,7 +10,7 @@
 set -euo pipefail
 
 SKILL="context-compress"
-REPO_RAW="https://raw.githubusercontent.com/The9thRealm/brainframe-context-compress/main"
+REPO_RAW="https://raw.githubusercontent.com/CjPetersonIX/brainframe-context-compress/main"
 SKILLS_DIR="${SKILLS_DIR:-$HOME/.claude/skills}"
 DEST="$SKILLS_DIR/$SKILL"
 
