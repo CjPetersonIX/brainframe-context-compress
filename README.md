@@ -1,3 +1,5 @@
+![BRAINFRAME](brainframe-banner-magenta.png)
+
 # brainframe-context-compress
 
 Portable skill: shrink working context before the host blunt-compacts you.
